@@ -13,7 +13,7 @@ body{
 /*-----Start Home section ------*/
 
 .carousel-item{
-    width: auto;
+    width: 100%;
     height: 100vh;
     min-height: 300px;
     background: no-repeat center center scroll;
@@ -21,7 +21,7 @@ body{
     position: relative;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+
 }
 
 .navbar {
@@ -230,8 +230,8 @@ body{
 }
  .fixed-background .fa{
      font-size: 60px;
-     color:rgb(65, 46, 11)
-     background-color:rgb(219, 181, 77);
+     color:white;
+     background-color: rgb(219, 181, 77)rgb(65, 46, 11);
      padding-right:20px;
      padding-left:20px;
      padding-top:20px;
@@ -296,6 +296,53 @@ footer .fa:hover{
 
 
  /*-----RESPONSIVE FOR MOBILE ------*/
- @media only screen and (min-width: 300px) {
+ @media (max-width: 568px) {
+
+.
+ /*-----start home section ------*/
+
+ .carousel-item{
+    width: 100%;
+    height: 100vh;
+    
+
+}
+.navbar .navbar-brand img{
+    width: 25px;
+    height: auto;
+}
+.navbar .navbar-brand img{
+    width: 35px;
+    height: auto;
+}
+.navbar .nav-logo {
+   font-size: 25px;
+}
+
+
+
+ /*-----end home section ------*/
+
+
+  /*-----start project section ------*/
+
+.narrow{
+    width: 100%;
+    height: fit-content;
+   
+}
+.narrow h1{
+    font-size: 2rem;
+}
+.narrow .lead{
+    font-size:large;
+    
+}
+
+  /*-----end project section ------*/
+
+/*-----start project section ------*/
+
+ /*-----end project section ------*/
 
  }
