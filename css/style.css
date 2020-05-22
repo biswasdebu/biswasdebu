@@ -212,6 +212,7 @@ body{
      background-size: cover;
      background-repeat: no-repeat;
      background-attachment: fixed;
+     
  }
  .fixed-background .heading-underline{
     width: 5rem;
@@ -224,6 +225,7 @@ body{
      background-color: rgba(0,0,0,0.75);
      color: white;
      padding: 7rem 2rem;
+   
  }
 
 .fixed-background h3{
@@ -380,7 +382,7 @@ footer .fa:hover{
     
     
     /*-----start service section ------*/
-        .services h3{
+     .services h3{
             font-size: medium;
             font-weight: bolder;
             font-style: oblique;
@@ -388,9 +390,9 @@ footer .fa:hover{
 
       /*-----end service section ------*/
         /*-----start about section ------*/
-        .clients .col-md-4{
-            padding-top: 20px;
-        }
+.clients .col-md-4{
+    padding-top: 20px;
+ }
         .clients .col-md-8{
             padding-top: 30px;
             padding-left: 50px;
@@ -402,10 +404,11 @@ footer .fa:hover{
 
 
 .dark{
+  width: 100%;
    box-sizing: border-box;
 }
 
-footer{
+.row{
    width: 100%;
    box-sizing: border-box;
 }
