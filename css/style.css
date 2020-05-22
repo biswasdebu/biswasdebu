@@ -1,15 +1,12 @@
 *{
     box-sizing: border-box;
 }
-html.body{
+body{
  
     overflow-x: hidden;
     font-family: 'Lato',sans-serif;
     color: #505962;
     width: 100%;
-    height: 100%;
-    margin: 0%;
-    padding: 0%;
    
 }
 
@@ -306,8 +303,8 @@ footer .fa:hover{
  @media (max-width: 568px) {
    
 .navbar{
-    width:100%;
-    
+   
+    box-sizing: border-box;
 }
  /*-----start home section ------*/
 
@@ -325,8 +322,7 @@ footer .fa:hover{
 
 .caption{
     max-width: 80%;
-    position: absolute;
-    top:12%;
+    top:20%;
     margin-left: 28%;
     
 }
@@ -344,13 +340,19 @@ footer .fa:hover{
     
 }
 .carousel-inner{
-    width: 100%;
+    box-sizing: border-box;
+
 }
 .carousel-item{
     width: 100%;
-    height: 100%;
-    
+    height: auto;
 }
+
+.carousel-item img{
+    width: 100%;
+    height: 300px;
+}
+
  /*-----end home section ------*/
 
 
@@ -362,7 +364,7 @@ footer .fa:hover{
    
 }
 .narrow h1{
-    font-size: 3.5rem;
+    font-size: 2rem;
 }
 .narrow .lead{
     font-size:large;
@@ -372,7 +374,15 @@ footer .fa:hover{
 
     /*-----end project section ------*/
 
-/*-----start project section ------*/
- /*-----end project section ------*/
+/*-----for removing horizontal scrolling section ------*/
 
+
+.dark{
+   box-sizing: border-box;
+}
+
+footer{
+   width: 100%;
+   box-sizing: border-box;
+}
  }
