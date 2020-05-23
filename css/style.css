@@ -254,7 +254,7 @@ body{
     border-radius: 100%;
 }
 .clients .col-md-4{
-    padding-left: 115px;
+    padding-left: 90px;
 }
 blockquote .fa{
     background-color:rgb(65, 46, 11) ;
@@ -296,6 +296,10 @@ footer .fa{
 footer .fa:hover{
     color:rgb(219, 181, 77) ;
 }
+
+.row{
+    margin: 0rem;
+ }
 
  /*-----end footer section ------*/
 
@@ -403,13 +407,4 @@ footer .fa:hover{
 /*-----for removing horizontal scrolling section ------*/
 
 
-.dark{
-  width: 100%;
-   box-sizing: border-box;
-}
-
-.row{
-   width: 100%;
-   box-sizing: border-box;
-}
  }
