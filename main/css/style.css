@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+}
+body{
+ 
+    overflow-x: hidden;
+    font-family: 'Lato',sans-serif;
+    color: #505962;
+    width: 100%;
+   
+}
+
+.offset:before{
+    display: block;
+    content: "";
+}
+/*-----Start Home section ------*/
+
+.carousel-item{
+    width: 100%;
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size:cover;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.navbar {
+    background:rgba(0,0,0,0.6);
+    width: 100%;
+   
+}
+
+.navbar .navbar-brand img{
+    width: 70px;
+    height: auto;
+}
+.navbar .nav-logo {
+    float: left;
+    font-size: 50px;
+    font-weight: 1000;
+    color: aliceblue;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-right: 20px;
+    
+    }
+   
+
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(219, 181, 77);
+    font-weight:bolder;
+}
+
+
+.fa{
+    background-color: rgb(65, 46, 11);
+    color: aliceblue;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+  
+  }
+
+  .btn .fa{
+    background-color:rgb(65, 46, 11);
+    color: aliceblue;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 50%;
+  }
+  
+  .dropdown-item{
+      color:rgb(219, 181, 77);
+      background-color:rgba(0,0,0,0.8);
+      border-bottom: 1px dashed black;
+  }
+  .dropdown-item:hover{
+      color:black;
+  }
+
+  .caption{
+      
+      max-width: 100%;
+      position: absolute;
+      top:38%;
+      z-index: 1;
+      color: black;
+      text-transform: uppercase;
+      margin-left: 35%;
+      margin-top: 5%;
+      
+  }
+
+  .caption .cap-first{
+      font-size: 50px;
+      font-weight: bolder;
+      color: black;
+      text-decoration: none;
+ }
+
+  .caption .cap-second{
+    font-size: 35px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+.carousel-caption{
+    color: black;
+}
+.caption .btn{
+    color:black;
+}
+.caption .btn:hover{
+    background-color: black;
+    color: aliceblue;
+}
+/*-----End home section ------*/
+
+
+
+ /*-----start project section ------*/
+
+ /*-----end footer section ------*/
+
+
+
+ /*-----RESPONSIVE FOR MOBILE ------*/
+ @media (max-width: 568px) {
+   
+.navbar{
+   
+    box-sizing: border-box;
+}
+ /*-----start home section ------*/
+
+.navbar .navbar-brand img{
+    width: 25px;
+    height: auto;
+}
+.navbar .navbar-brand img{
+    width: 35px;
+    height: auto;
+}
+.navbar .nav-logo {
+   font-size: 25px;
+}
+
+.caption{
+    max-width: 100%;
+    top:50%;
+    margin-left: 10%;
+  
+    
+}
+.caption .cap-first{
+    font-size: 25px;
+   }
+
+.caption .cap-second{
+    font-size: 20px;
+    
+}
+
+.caption a{
+    font-size: 8px; 
+    
+}
+.carousel-inner{
+    box-sizing: border-box;
+
+}
+.carousel-item{
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 680px;
+}
+
+ /*-----end home section ------*/
+
+
+  /*-----start project section ------*/
+
+
+          /*-----end about section ------*/    
+
+ /*-----navbar visibility section ------*/
+
+ }
