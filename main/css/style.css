@@ -29,7 +29,7 @@ body{
 }
 
 .navbar {
-    background:rgba(0,0,0,0.6);
+    background:rgba(0,0,0,0.1);
     width: 100%;
    
 }
@@ -51,7 +51,7 @@ body{
    
 
 .navbar-dark .navbar-nav .nav-link{
-    color: rgb(219, 181, 77);
+    color: rgb(192, 149, 31);
     font-weight:bolder;
 }
 
